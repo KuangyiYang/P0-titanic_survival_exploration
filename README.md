@@ -1,7 +1,7 @@
 # Project 0-titanic_survival_exploration
 This repository contains project files for Udacity: Machine Learning Nanodegree, Project 0
 
-**Project Description**
+### Project Description
 
 In 1912, the ship RMS Titanic struck an iceberg on its maiden voyage and sank, resulting in the deaths of most of its passengers and crew. In this introductory project, we will explore a subset of the RMS Titanic passenger manifest to determine which features best predict whether someone survived or did not survive. To complete this project, you will need to implement several conditional predictions and answer the questions below. Your project submission will be evaluated based on the completion of the code and your responses to the questions.
 
@@ -21,13 +21,13 @@ Load the dataset:
   full_data = pd.read_csv(in_file)
 ```
 
-## Software and Libraries
+### Software and Libraries
 - Python 2.7
 - NumPy
 - pandas
 - iPython Notebook
 
-## Dataset
+### Dataset
 Attributes for student-data.csv:
 - From a sample of the RMS Titanic data, we can see the various features present for each passenger on the ship:
 - Survived: Outcome of survival (0 = No; 1 = Yes)
@@ -42,7 +42,7 @@ Attributes for student-data.csv:
 - Cabin Cabin number of the passenger (Some entries contain NaN)
 - Embarked: Port of embarkation of the passenger (C = Cherbourg; Q = Queenstown; S = Southampton)
 
-## Questions:
+### Questions:
 - Question1: Using the RMS Titanic data, how accurate would a prediction be that none of the passengers survived? 
 - Question2: How accurate would a prediction be that all female passengers survived and the remaining passengers did not survive?
 - Question3: How accurate would a prediction be that all female passengers and all male passengers younger than 10 survived?
