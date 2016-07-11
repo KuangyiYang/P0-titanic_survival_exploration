@@ -14,9 +14,11 @@ Run the code cell below to load our data and display the first few entries (pass
 
 > Tip: You can run a code cell by clicking on the cell and using the keyboard shortcut Shift + Enter or Shift + Return. Alternatively, a code cell can be executed using the Play button in the hotbar after selecting it. Markdown cells (text cells like this one) can be edited by double-clicking, and saved using these same shortcuts. Markdown allows you to write easy-to-read plain text that can be converted to HTML.
 
-> Load the dataset
+'''
+#Load the dataset
 in_file = 'titanic_data.csv'
 full_data = pd.read_csv(in_file)
+'''
 
 ## Software and Libraries
 - Python 2.7
@@ -40,8 +42,8 @@ Attributes for student-data.csv:
 - Embarked: Port of embarkation of the passenger (C = Cherbourg; Q = Queenstown; S = Southampton)
 
 ## Questions:
-Question1: Using the RMS Titanic data, how accurate would a prediction be that none of the passengers survived? 
-Question2: How accurate would a prediction be that all female passengers survived and the remaining passengers did not survive?
-Question3: How accurate would a prediction be that all female passengers and all male passengers younger than 10 survived?
-Question4: Describe the steps you took to implement the final prediction model so that it got an accuracy of at least 80%. What features did you look at? Were certain features more informative than others? Which conditions did you use to split the survival outcomes in the data? How accurate are your predictions?
-Question5: Can you think of an example of where supervised learning can be applied?
+- Question1: Using the RMS Titanic data, how accurate would a prediction be that none of the passengers survived? 
+- Question2: How accurate would a prediction be that all female passengers survived and the remaining passengers did not survive?
+- Question3: How accurate would a prediction be that all female passengers and all male passengers younger than 10 survived?
+- Question4: Describe the steps you took to implement the final prediction model so that it got an accuracy of at least 80%. What features did you look at? Were certain features more informative than others? Which conditions did you use to split the survival outcomes in the data? How accurate are your predictions?
+- Question5: Can you think of an example of where supervised learning can be applied?
