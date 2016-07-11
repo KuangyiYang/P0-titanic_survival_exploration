@@ -14,11 +14,12 @@ Run the code cell below to load our data and display the first few entries (pass
 
 > Tip: You can run a code cell by clicking on the cell and using the keyboard shortcut Shift + Enter or Shift + Return. Alternatively, a code cell can be executed using the Play button in the hotbar after selecting it. Markdown cells (text cells like this one) can be edited by double-clicking, and saved using these same shortcuts. Markdown allows you to write easy-to-read plain text that can be converted to HTML.
 
-'''
-#Load the dataset
-in_file = 'titanic_data.csv'
-full_data = pd.read_csv(in_file)
-'''
+
+Load the dataset:
+```
+  in_file = 'titanic_data.csv'
+  full_data = pd.read_csv(in_file)
+```
 
 ## Software and Libraries
 - Python 2.7
